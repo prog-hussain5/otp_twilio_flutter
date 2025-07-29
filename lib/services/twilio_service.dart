@@ -4,13 +4,13 @@ import 'package:http/http.dart' as http;
 class TwilioService {
 
   // أضف Account SID الخاص بك من لوحة تحكم Twilio
-  static const String accountSid = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+  static const String accountSid = 'YOUR_ACCOUNT_SID_HERE';
   
   // أضف Auth Token الخاص بك من لوحة تحكم Twilio  
-  static const String authToken = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+  static const String authToken = 'YOUR_AUTH_TOKEN_HERE';
   
   // أضف Service SID الخاص بك من خدمة Verify
-  static const String serviceSid = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+  static const String serviceSid = 'YOUR_VERIFY_SERVICE_SID_HERE';
   
   // Base URL for Twilio Verify API
   static const String _baseUrl = 'https://verify.twilio.com/v2/Services';
